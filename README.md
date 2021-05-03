@@ -1,12 +1,21 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-## Monitorando aplicações em tempo real com Azure Monitor e Prometheus
+## Integrando containers nativamente usando Golang
 
 *Este é o código finalizado da aplicação*
 
-> Se você está começando clone o [código do template do projeto](https://github.com/rocketseat-experts-club/template-monitor-aks-prometheus-2021-02-10)
+Já pensou em uma alternativa ao Docker? Que tal manipular containers de forma programática na sua API? Vamos integrar sua app com o mundo de containers usando o [containerd](https://github.com/containerd/containerd).
 
-Mais importante do que ter uma aplicação funcionando é saber como ela está se comportando. Você vai aprender a monitorar todas as aplicações em seu cluster Kubernetes na Azure (usando o AKS) através de uma funcionalidade incrível do Azure Monitor For Containers que permite que utilizemos exporters do Prometheus de forma nativa sem precisar de nenhum tipo de configuração externa de monitoramento.
+`tags: containerd,docker,containers,golang`
+
+## Pré requisitos
+
+- Você precisa estar rodando um sistema operacional Linux (uma VM ou sua própria máquina)
+- [containerd](https://github.com/containerd/containerd) instalado
+- [runc](https://github.com/opencontainers/runc) instalado
+- [Golang](https://golang.org) instalado
+
+Esta aula se baseia [neste artigo](https://bit.ly/2QRuRDh), apesar de estarmos realizando o desenvolvimento da mesma aplicação, nesta aula vamos entrar em conceitos mais aprofundados sobre `tasks`, `containers` e o uso da linha de comando do containerd, o `ctr`.
 
 ## Expert
 
